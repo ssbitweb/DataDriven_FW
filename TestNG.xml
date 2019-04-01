@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="CrmParameterSuite">
+	<test name="CrmProLoginTest">
+
+		<!-- this is comment and Environment variables -->
+		 
+		<parameter name="browser" value="chrome" />
+		<parameter name="url" value="https://classic.crmpro.com/index.html" />
+		<parameter name="username" value="sachinbhagat" />
+		<parameter name="password" value="test@121" />
+
+		<classes>
+			<class name="com.parameters.ParametersTest" />
+		</classes>
+
+	</test>
+</suite>
